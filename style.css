@@ -82,7 +82,7 @@ nav h1 {
 
 .header {
     height: 830px;
-    background-image: url(./images/ozio_office_bw.jpg);
+    background-image: url(/images/ozio_office_bw.jpg);
     background-size: cover;
     padding-top: 10%;
 }
