@@ -1,0 +1,222 @@
+/* Fonts */
+
+@font-face {
+    font-family: raleway;
+    src: url("./fonts/Raleway-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("./fonts/Raleway-Light.ttf");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("./fonts/Raleway-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("./fonts/Raleway-ExtraBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("./fonts/Raleway-Heavy.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*Background colour*/
+
+body {
+    margin:0%;
+    background-color: #ed1e79;
+}
+
+/* Navigation bar */
+
+nav {
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows:auto;
+    background-color: white;
+    height:60px;
+}
+
+nav ul li {
+    display: inline-flex;
+    color:#58595b;
+    font-family: raleway;
+    font-weight: 800;
+    padding:20px;
+    padding-top: 0.5%;
+    font-size: 20px;
+}
+
+nav ul{
+    text-align: right;
+    padding-right:10%;
+}
+
+nav h1 {
+    font-family: raleway;
+    font-weight: 900;
+    color: #ed1e79;
+    padding-left:10%;   
+    margin-top: 0.9%;
+    font-size: 40px;
+    display: block;
+    float:left;
+}
+
+/* Header */
+
+.header {
+    height: 830px;
+    background-image: url(./images/ozio_office_bw.jpg);
+    background-size: cover;
+    padding-top: 10%;
+}
+
+.header h1 {
+    font-family: raleway;
+    font-weight: 400;
+    color:white;
+    font-size:160px;
+    padding-top: 5%;
+    text-align: center;
+}
+
+/* Content Text */
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-family: raleway;
+    font-weight: 400;
+    color:white;
+    font-size:80px;
+    padding-top: 5%;
+    padding-left:12%;
+    padding-right:12%;
+    margin:1%;
+}
+
+.content h3 {
+    font-family: raleway;
+    font-weight: 400;
+    color:white;
+    font-size:50px;
+    padding-left: 11%;
+    padding-right:11%;
+    margin:0%;
+}
+
+.content p {
+    font-family: raleway;
+    font-weight: 200;
+    color:white;
+    font-size:45px;
+}
+
+.content ul li {
+    font-family: raleway;
+    font-weight: 200;
+    color:white;
+    font-size:45px;
+    list-style-position: inside;
+}
+
+.content ul {
+    padding-bottom: 50px;
+}
+
+.content h4 {
+    font-family: raleway;
+    font-weight: 400;
+    color:white;
+    font-size:45px;
+    margin:0%;
+    padding-bottom:30px;
+}
+
+.content button {
+    background-color: #58595b;
+    color:white;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: none;
+    border: transparent;
+    border-radius: 15px;
+    padding:15px 30px;
+}
+
+.container {
+    padding-bottom: 300px;
+}
+
+/* Product List */
+
+.flex1 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:5%;
+    margin-left:0%;
+    margin-right:0%;
+}
+
+.flex1 div {
+    text-align: center;
+    margin-top:60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flex1 p {
+    font-family: raleway;
+    font-weight: 400;
+    color:white;
+    font-size:20px;
+    line-height: 0%;
+}
+
+.flex1 img {
+    padding:px;
+    height:320px;
+    margin:0px;
+}
+
+.flex1 button {
+    background-color: transparent;
+    font-family: raleway;
+    font-weight: 700;
+    font-size:15px;
+    color:white;
+    box-sizing: none;
+    border:1px solid white;
+    border-radius: 15px;
+    padding:10px 35px;
+}
+
+/* Footer */
+
+footer {
+    color:white;
+    font-family: raleway;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+}
